@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Coda:400|Electrolize|Inconsolata');
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .display, .main {
+    padding-bottom: 15px;
+  }
+} 
+
+/**
+http://wallpoper.com/wallpaper/wood-391228
+**/
+
+body {
+  background-image: url(../images/wood.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat center center fixed;
+}
+
+.main {
+  width: 350px;
+  height: 650px;
+  background-color: #acacac;
+  /* offset-x | offset-y | blur-radius | color */
+  box-shadow: 15px 10px 15px -3px rgba(0, 0, 0, 0.8), inset -2px -5px 15px -2px rgba(0, 0, 0, 0.5);
+  margin-left: 4px;
+  border: 2px solid #929292;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;  
+}
+
+.black-top,
+.black-bottom {
+  width: 350px;
+  height: 25px;
+  background-color: #262626;
+}
+
+.black-top {
+  border-radius: 17px 17px 0px 0px;
+  margin-left: -0.5px;
+  box-shadow: inset 3px 0px 10px -5px white;
+}
+
+.black-bottom {
+  border-radius: 0px 0px 17px 17px;
+  border: 1px solid #404040;
+  box-shadow: 15px 10px 15px -3px rgba(0, 0, 0, 0.3), inset 5px 0px 10px -5px #595959;
+  margin-top: 37px;
+
+}
+
+.display {
+  width: 325px;
+  height: 200px;
+  background-color: #151412;
+  margin: 55px 10px 0px 10px;
+  border-radius: 30px 30px 20px 20px;
+  border: 2px solid #6c6c6c;
+  text-align: center;
+  box-shadow: inset -1px 0px 25px -10px white;
+}
+
+.model {
+  color: white;
+  text-decoration: underline;
+  font-family: 'Coda', cursive;
+  letter-spacing: 4px;
+}
+
+.title {
+  font-family: 'Inconsolata', monospace;
+}
+
+.title, .results {
+  color: teal;
+}
+
+.results {
+  font-size: 30px;
+  font-family: 'Electrolize', sans-serif;
+  float: right;
+  padding-right: 20px;
+}
+
+.mem {
+  color: gray;
+  font-family: 'Electrolize', sans-serif;
+  float: right;
+  padding-right: 20px;
+  margin-top: 10px;
+}
+
+button {
+  color: white;
+  border-radius: 7px;
+   /* offset-x | offset-y | blur-radius | color */
+  box-shadow: 3px 5px 4px -3px rgba(0, 0, 0, 0.4);
+}
+
+#solar {
+  width: 70px;
+  height: 40px;
+  margin-top: 25px;
+  margin-left: 10px;
+  background-color: #262626;
+  border: 1px solid #5a5a5a;
+  box-shadow: inset 0px 0px 10px -4px #bbbbbb;
+  color: #e2e2e2;
+}
+
+#ac, #c {
+  width: 45px;
+  height: 40px; 
+  margin-left: 33px;
+  background-color: orange;
+}
+
+#percent {
+  width: 45px;
+  height: 40px; 
+  margin-left: 35px;
+  background-color: skyblue;
+}
+
+
+
+#seven, #eight, #nine, #divide,
+#four, #five, #six, #multiply,
+#one, #two, #three, #sub, 
+#zero, #deci, #equals, #add {
+  width: 45px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 34px;
+}
+
+#divide, #multiply, #sub, #add, #equals {
+  background-color: gray;
+}
+
+#seven, #eight, #nine,
+#four, #five, #six,
+#one, #two, #three, 
+#zero, #deci {
+  background-color: #262626;
+}
+
+
