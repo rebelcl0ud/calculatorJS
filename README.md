@@ -11,5 +11,3 @@ user stories:
   - added '%' button
   
   HTML, CSS, Javascript, jQuery
-  
-  Note: initially created practicing rails setup, but moved to practice setup w/o rails (since it isnt neccessary), also wanted to change it up and deploy using surge.sh instead of Heroku.
