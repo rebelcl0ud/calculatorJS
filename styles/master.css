@@ -4,6 +4,12 @@
   .display, .main {
     padding-bottom: 15px;
   }
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 15px auto;
 } 
 
 /**
@@ -20,6 +26,9 @@ body {
 }
 
 .main {
+  grid-column: 2;
+  grid-row: 2;
+  transform: rotate(-0.02turn);
   width: 350px;
   height: 650px;
   background-color: #acacac;
