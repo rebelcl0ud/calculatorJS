@@ -1,0 +1,23 @@
+{
+  "name": "calculatorjs",
+  "version": "1.0.0",
+  "description": "calculator designed using HTML, CSS, jQuery -- based off 70s Casio reference photo",
+  "main": "index.js",
+  "scripts": {
+    "server":"browser-sync start --directory --server --files '*.js, *.html, *.css'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rebelcl0ud/calculatorJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rebelcl0ud/calculatorJS/issues"
+  },
+  "homepage": "https://github.com/rebelcl0ud/calculatorJS#readme",
+  "devDependencies": {
+    "browser-sync": "^2.24.5"
+  }
+}
